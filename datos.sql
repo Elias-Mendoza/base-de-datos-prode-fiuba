@@ -16,14 +16,14 @@ INSERT INTO usuarios
     codigo_iso
 )
 VALUES
-(101, 'Juan', 'Perez', '2024-01-10', 15, 'juan@gmail.com', 'ARG'),
-(102, 'Maria', 'Lopez', '2024-01-15', 22, 'maria@gmail.com', 'ARG'),
-(103, 'Pedro', 'Gomez', '2024-02-01', 8, 'pedro@gmail.com', 'URU'),
-(104, 'Ana', 'Fernandez', '2024-02-15', 30, 'ana@gmail.com', 'BRA'),
-(105, 'Lucas', 'Martinez', '2024-03-01', 12, 'lucas@gmail.com', 'CHI'),
-(106, 'Sofia', 'Ruiz', '2024-03-10', 5, 'sofia@gmail.com', 'PAR'),
-(107, 'Martin', 'Diaz', '2024-04-01', 18, 'martin@gmail.com', 'ARG'),
-(108, 'Valentina', 'Castro', '2024-04-15', 10, 'valentina@gmail.com', 'BRA');
+(101, 'Juan', 'Perez', '2024-01-10', 'juan@gmail.com', 'ARG'),
+(102, 'Maria', 'Lopez', '2024-01-15', 'maria@gmail.com', 'ARG'),
+(103, 'Pedro', 'Gomez', '2024-02-01', 'pedro@gmail.com', 'URU'),
+(104, 'Ana', 'Fernandez', '2024-02-15', 'ana@gmail.com', 'BRA'),
+(105, 'Lucas', 'Martinez', '2024-03-01', 'lucas@gmail.com', 'CHI'),
+(106, 'Sofia', 'Ruiz', '2024-03-10', 'sofia@gmail.com', 'PAR'),
+(107, 'Martin', 'Diaz', '2024-04-01', 'martin@gmail.com', 'ARG'),
+(108, 'Valentina', 'Castro', '2024-04-15', 'valentina@gmail.com', 'BRA');
 
 INSERT INTO ingresos (dni, fecha, hora) VALUES
 (101, '2025-12-01', '10:30:00'),
