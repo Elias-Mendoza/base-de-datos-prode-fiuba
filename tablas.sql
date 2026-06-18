@@ -8,7 +8,6 @@ CREATE TABLE usuarios (
     nombre VARCHAR(100) NOT NULL,
     apellido VARCHAR(100) NOT NULL,
     fecha_registro DATE NOT NULL,
-    cantidad_ingresos INTEGER NOT NULL DEFAULT 0,
     email VARCHAR(255) NOT NULL UNIQUE,
     codigo_iso CHAR(3) NOT NULL,
 
