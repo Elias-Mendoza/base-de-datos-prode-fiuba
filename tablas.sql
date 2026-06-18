@@ -15,9 +15,6 @@ CREATE TABLE usuarios (
         FOREIGN KEY (codigo_iso)
         REFERENCES paises(codigo_iso),
 
-    CONSTRAINT chk_cantidad_ingresos
-        CHECK (cantidad_ingresos >= 0),
-
     CONSTRAINT chk_email
         CHECK (email LIKE '%@%.%' )
 );
