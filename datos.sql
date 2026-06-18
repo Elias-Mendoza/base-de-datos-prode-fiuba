@@ -11,7 +11,6 @@ INSERT INTO usuarios
     nombre,
     apellido,
     fecha_registro,
-    cantidad_ingresos,
     email,
     codigo_iso
 )
