@@ -134,3 +134,12 @@ AND PD.hora = P.hora
 AND PD.estadio = P.estadio
 GROUP BY T.anio, T.nombre
 ORDER BY cantidad_pronosticadores DESC;
+
+
+
+-- Contabilizar la cantidad de veces que ingresa a la aplicación cada usuario
+SELECT i.dni ,u.nombre , u.apellido, COUNT (i.dni) AS cantidad_ingresos
+FROM ingresos AS i
+JOIN usuarios AS u ON u.dni = i.dni
+GROUP BY i.dni , u.nombre , u.apellido
+ORDER BY cantidad_ingresos DESC;
